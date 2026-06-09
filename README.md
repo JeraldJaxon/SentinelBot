@@ -217,11 +217,14 @@ Stationary operation at an entry point — grants or denies access based on face
 
 
 ### Circuit Diagram
-<img width="813" height="1279" alt="image" src="https://github.com/user-attachments/assets/23f2830b-6026-4608-9740-bfc0f8d454f7" />
+
+<img width="1884" height="1354" alt="2963c9b2-94b6-4b1c-b102-1e7be539010d" src="https://github.com/user-attachments/assets/6d9861e3-f16d-4b20-831a-1cb619e6b8a3" />
 
 
 ### Mobile app Interface
-<img width="594" height="273" alt="image" src="https://github.com/user-attachments/assets/0009e419-d784-498f-8a10-248a1532732c" />
+
+<img width="1600" height="637" alt="69e1a5e1-a264-4eaa-992e-c642d35e2a4a" src="https://github.com/user-attachments/assets/1f496adb-4f55-4235-84c0-4a91f01f7866" />
+
 
 
 ---
