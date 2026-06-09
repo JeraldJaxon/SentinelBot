@@ -213,7 +213,7 @@ Stationary operation at an entry point — grants or denies access based on face
 
 ### Hardware Setup
 
-<img width="654" height="1038" alt="5dab94e2-c382-4cbc-8a02-6b3835ae1bf9" src="https://github.com/user-attachments/assets/dc6bcf0c-d833-4f80-a859-9e37799bcfde" />
+<img width="1280" height="725" alt="1780203029215" src="https://github.com/user-attachments/assets/0c4115c6-04bf-4e3c-a287-f5f3cebf0bec" />
 
 
 ### Circuit Diagram
