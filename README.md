@@ -58,25 +58,15 @@ The robot identifies authorized personnel via a local face recognition database,
 ---
 
 ## 🏗️ System Architecture
+## HARDWARE ARCHITECTURE
+```
+<img width="947" height="432" alt="image" src="https://github.com/user-attachments/assets/5452329d-31d0-4163-bcbd-d82e06c3c26c" />
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     SENTINELBOT                         │
-│                                                         │
-│   ┌──────────────────┐       ┌──────────────────────┐   │
-│   │   Raspberry Pi   │◄─────►│       ESP32          │   │
-│   │                  │ UART  │                      │   │
-│   │  • Face Recog.   │       │  • Motor Control     │   │
-│   │  • Image Proc.   │       │  • Sensor Reading    │   │
-│   │  • Navigation    │       │  • RFID Interface    │   │
-│   │    Decisions     │       │  • Line Following    │   │
-│   └────────┬─────────┘       └──────────┬───────────┘   │
-│            │                            │               │
-│   ┌────────▼─────────┐       ┌──────────▼───────────┐   │
-│   │   Pi Camera      │       │  IR / RFID / Env.    │   │
-│   │   (Vision Input) │       │  Sensors + Motors    │   │
-│   └──────────────────┘       └──────────────────────┘   │
-└─────────────────────────────────────────────────────────┘
+## SOFTWARE ARCHITECTURE
+```
+<img width="606" height="647" alt="image" src="https://github.com/user-attachments/assets/bfe1f21a-305e-4bc9-ae93-c2ec37bfde87" />
+
 ```
 
 **Data Flow:**
@@ -222,13 +212,16 @@ Stationary operation at an entry point — grants or denies access based on face
 ## 📸 Project Images
 
 ### Hardware Setup
-*(Add image here)*
+<img width="401" height="570" alt="image" src="https://github.com/user-attachments/assets/a4b9ac68-e016-441f-983b-18b19ad035a9" />
+
 
 ### Circuit Diagram
-*(Add image here)*
+<img width="813" height="1279" alt="image" src="https://github.com/user-attachments/assets/23f2830b-6026-4608-9740-bfc0f8d454f7" />
 
-### Robot in Action
-*(Add demo GIF / video link here)*
+
+### Mobile app Interface
+<img width="594" height="273" alt="image" src="https://github.com/user-attachments/assets/0009e419-d784-498f-8a10-248a1532732c" />
+
 
 ---
 
@@ -273,10 +266,10 @@ Stationary operation at an entry point — grants or denies access based on face
 
 | Name | Role |
 |------|------|
-| **Jerald Jaxon** *(Lead)* | System architecture, Raspberry Pi programming, ESP32 integration, face recognition |
-| **Ajoy Antony** | Hardware assembly, sensor interfacing, RFID integration |
-| **Amritha V.S** | Project ideation, navigation logic development |
-| **Sanjana Jojy** | Documentation, testing, repository management |
+| **Jerald Jaxon** *(Lead)* | Hardware assembly, ESP32 programming, RFID integration, navigation, Firebase communication, AI integration |
+| **NANDANA K.G** | Environmental monitoring, sensor integration, sensor calibration, face recognition testing |
+| **Amritha V.S** | Face recognition, YOLO training, camera integration, mobile app alerts |
+| **Sanjana Jojy** | Environmental monitoring, mobile app development, UI design, data display |
 
 <p>
   <a href="https://github.com/JeraldJaxon">
